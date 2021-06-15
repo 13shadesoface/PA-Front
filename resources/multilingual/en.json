@@ -17,5 +17,11 @@
     "home": "Home Page",
     "paymentInfo": "My Paiement Info",
     "charities": "Charities",
-    "support": "Invest green coins"
+    "support": "Invest green coins",
+    "name": "Name",
+    "condition":"Product Condition",
+    "asnewCondition": "Good as new condition : Never used",
+    "goodCondition": "Good condition : 100 % Functional, looks presentable",
+    "decentCondition": "Decent condition : Functional without major issues, looks presentable",
+    "badCondition": "Bad condition : Major technical issue"
 }

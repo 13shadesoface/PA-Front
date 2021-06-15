@@ -17,5 +17,11 @@
     "home": "Page d'accueil",
     "paymentInfo": "Mes infos de paiement",
     "charities": "Associations caritatives",
-    "support": "Investir mes green coins"
+    "support": "Investir mes green coins",
+    "name": "Nom",
+    "condition":"Etat du Produit",
+    "asnewCondition": "Etat comme neuf : jamais utilisé",
+    "goodCondition": "Bon Etat : 100 % fonctionnel, esthétiquement proche de son état neuf",
+    "decentCondition": "Etat correct : Fonctionnel en majeur partie, esthétiquement présentable",
+    "badCondition": "Mauvais Etat : Problème fonctionnel majeur"
 }
