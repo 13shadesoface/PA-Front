@@ -1,0 +1,21 @@
+{
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "signIn": "Connexion",
+    "signOut": "Déconnexion",
+    "signUp": "Inscription",
+    "buy": "Acheter",
+    "select": "Choisir",
+    "more": "Plus d'infos",
+    "shop": "Nos Produits",
+    "myProducts": "Mes produits",
+    "deal": "Historique des négociations",
+    "accept": "Accepter",
+    "refuse": "Refuser",
+    "bargain": "Demander un autre prix",
+    "sell": "Vendre à ce prix",
+    "home": "Page d'accueil",
+    "paymentInfo": "Mes infos de paiement",
+    "charities": "Associations caritatives",
+    "support": "Investir mes green coins"
+}
