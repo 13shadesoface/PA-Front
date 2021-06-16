@@ -17,16 +17,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 </head>
-<body class="bg-dark">
-    
-        <form>
+<body class="bg-dark text-white text-center">
+
         <?php
             require('../../header.php');?>
-            <div class="p-3 bg-dark text-white">
             <?php
-            echo "<input type='text' id='productName' placeholder='". $keywords->name ."'><br>";
-            echo "<input type='text' id='productDescription' placeholder='Description'><br>";
-            echo "<select id='condition'>
+            echo "<form class='m-4'><input class='m-1' type='text' id='productName' placeholder='". $keywords->name ."'><br>";
+            echo "<input class='m-1' type='text' id='productDescription' placeholder='Description'><br>";
+            echo "<select class='m-1' id='condition'>
 			        <option value=0.10>". $keywords->badCondition ."</option>
 			        <option value=0.45>". $keywords->decentCondition ."</option>
                     <option value=0.75>". $keywords->goodCondition ."</option>
@@ -34,14 +32,12 @@
 		        </select><br>";
         ?>
 		<!-- get api ajax js pour remplir-->
-        <select id="category">
+        <select class='m-1' id="category">
         </select><br>
-
-        </form>
         <?php
-            echo "<button onclick='addProduct()' class='btn btn-outline-light me-2'>". $keywords->confirm ."</button>";
+            echo "</form><button onclick='addProduct()' class='btn btn-outline-light me-2'>". $keywords->confirm ."</button>";
         ?>
-    </div>
+        <output id='estimationResult'></output>
 
     <script src="../../scripts/newProduct.js"></script>
     <script src="../../scripts/utils.js"></script>
